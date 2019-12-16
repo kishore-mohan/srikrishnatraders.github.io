@@ -1,10 +1,11 @@
-- name: Products
+- name: Jewellery Combo Set
   link: /
-  new_window: false
-  highlight: false
-- name: Our Story
-  link: /about/
-  new_window: false
+  new_window: true
+  highlight: true
+- name: Chain Pendant
+  link: /chainpendant
+  another_site: true
+  new_window: true
   highlight: false
 - name: Contact
   link: /contact/

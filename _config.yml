@@ -33,6 +33,10 @@ collections:
     _hide_content: true
     output: true
     _icon: shopping_cart
+  chains:
+    _hide_content: true
+    output: true
+    _icon: shopping_cart
 
 permalink: pretty
 
@@ -41,6 +45,12 @@ defaults:
     scope:
       path: ""
       type: "products"
+    values:
+      layout: "product"
+  -
+    scope:
+      path: ""
+      type: "chains"
     values:
       layout: "product"
   -

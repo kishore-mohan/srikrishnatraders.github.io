@@ -1,0 +1,30 @@
+---
+title: Imitation Jewellery
+hero: Best reseller price in the market
+subtitle: Best reseller price in the market
+---
+
+<div class="content" id="products">
+	<section>
+		<div class="container">
+			<p class="editor-link" style="text-align: center;"><a href="cloudcannon:collections/_chains" class="btn"><strong>&#9998;</strong> Manage products</a></p>
+			<ul class="product-list">
+				{% for chain in site.chains %}
+					<li>
+						{% include product-styles.html product=chain %}
+						<div class="product-details">
+							<h4><a href="{{ chain.url }}">{{ chain.name }}</a></h4>
+							<div class="product-description">
+								{{ chain.description_markdown | truncate: 45 | markdownify }}
+							</div>
+							<p>₹{{ chain.price }}</p>
+						</div>
+					</li>
+				{% endfor %}
+				<li></li>
+				<li></li>
+				<li></li>
+			</ul>
+		</div>
+	</section>
+</div>
