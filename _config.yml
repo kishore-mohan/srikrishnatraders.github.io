@@ -1,7 +1,7 @@
 # ----
 # Site
 
-title: Krishna Traders
+title: 
 url: "http://srikrishna.github.io/"
 baseurl:
 google_analytics_key:
@@ -34,6 +34,10 @@ collections:
     output: true
     _icon: shopping_cart
   chains:
+    _hide_content: true
+    output: true
+    _icon: shopping_cart
+  long_chains:
     _hide_content: true
     output: true
     _icon: shopping_cart

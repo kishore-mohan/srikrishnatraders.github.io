@@ -7,6 +7,11 @@
   another_site: true
   new_window: true
   highlight: false
+- name: Long Harram
+  link: /long_chain
+  another_site: true
+  new_window: true
+  highlight: true
 - name: Contact
   link: /contact/
   new_window: true
