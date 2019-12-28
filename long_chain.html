@@ -13,7 +13,7 @@ subtitle: Bulk order, good discounts available.
 					<li>
 						{% include product-styles.html product=long_chain %}
 						<div class="product-details">
-							<h4><a href="{{ long_chain.url }}">{{ long_chain.name }}</a></h4>
+							<h4><a href="/reseller/{{ long_chain.url }}">{{ long_chain.name }}</a></h4>
 							<div class="product-description">
 								{{ long_chain.description_markdown | truncate: 45 | markdownify }}
 							</div>
